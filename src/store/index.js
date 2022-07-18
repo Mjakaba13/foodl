@@ -20,7 +20,7 @@ export default createStore({
           `https://www.themealdb.com/api/json/v1/1/search.php?s=${foodName}`
         );
         commit("SET_MEALS", response.data.meals);
-        console.log(response.data.meals);
+        // console.log(response.data.meals);
       } catch (error) {
         console.log(error);
       }
