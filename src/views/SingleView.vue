@@ -91,7 +91,7 @@ export default {
                 this.result = response.meals[0].strInstructions.split('.')
                 this.instructions = this.result.filter(Boolean)
                 // console.log(this.instructions)
-                console.log(this.single)
+                // console.log(this.single)
 
                 Object.entries(this.single).forEach(([key, value]) => {
                     if (key.startsWith("strIngredient") && value !== null && value.trim() !== "") {
@@ -109,9 +109,9 @@ export default {
                         measure: this.measurements[index],
                     })
                 })
-                console.log(this.ingredients)
-                console.log(this.measurements)
-                console.log(this.measingre)
+                // console.log(this.ingredients)
+                // console.log(this.measurements)
+                // console.log(this.measingre)
             });
     },
 
@@ -280,7 +280,8 @@ h1 {
 
 li {
     width: 489px;
-    height: 70px;
+    /* height: 70px; */
+    margin-bottom: 10px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
