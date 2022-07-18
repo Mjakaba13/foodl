@@ -64,6 +64,7 @@ export default {
   background-image: url("@/assets/Searchback.svg");
   background-repeat: no-repeat;
   padding-bottom: 78px;
+
 }
 
 .bottom {
